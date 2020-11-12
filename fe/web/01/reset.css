@@ -1,0 +1,29 @@
+/* 使用通配符选择器，意思是控制所有标签元素的内外边距均为0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 去掉列表前面的编号样式，如小黑圆点等 */
+ul {
+  list-style: none;
+}
+
+a {
+  /* 去掉超链接文字默认的下划线 */
+  text-decoration: none;
+  /* 设置超链接文字的默认颜色为黑色 */
+  color: black;
+}
+
+img {
+  vertical-align: middle;
+  border: 0 none;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.wrap {
+  /* 设置盒子的宽度 */
+  width: 914px;
+  /* 设置盒子水平方法居中 */
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.nav-logo {
+  margin: 0;
+  padding: 0;
+}
